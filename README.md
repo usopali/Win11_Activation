@@ -1,4 +1,6 @@
 
+![Logo](23.gif)
+
 # Win11 Activation
 
 This repository provides a PowerShell script for activating Windows 11 using KMS. The script automates the process of clearing existing activation keys, configuring KMS, and activating the product.
@@ -96,4 +98,4 @@ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
   ```
   slmgr /ato
 
-![Logo](23.gif)
+
