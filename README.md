@@ -26,16 +26,17 @@ This repository provides a PowerShell script for activating Windows 11 using KMS
 
 2.Run the Activation Script: Ensure you are running PowerShell as an Administrator, then execute:
 
-powershell
-```
+```powershell
+
 .\activation_script.ps1
 ```
 
 Or, if you prefer the .exe version, run:
 
-bash
+```bash
 
 .\activation_script.exe
+```
 
 3.Follow the On-Screen Instructions: The script will guide you through the process and automatically activate your Windows 11 installation.
 
