@@ -96,4 +96,4 @@ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
   ```
   slmgr /ato
 
-[!Logo](23.gif)
+![Logo](23.gif)
