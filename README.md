@@ -43,9 +43,7 @@ Or, if you prefer the .exe version, run:
 ## Script Details
 
 The script executes the following commands:
-
-    - Uninstall the current product key:
-    slmgr.vbs /upk
+```slmgr.vbs /upk```
 Clear any saved product keys:
 
 powershell
