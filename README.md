@@ -43,7 +43,11 @@ Or, if you prefer the .exe version, run:
 ## Script Details
 
 The script executes the following commands:
-```slmgr.vbs /upk```
+```
+slmgr.vbs /upk
+```
+
+
 Clear any saved product keys:
 
 powershell
