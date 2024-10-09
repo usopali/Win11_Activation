@@ -43,40 +43,48 @@ Or, if you prefer the .exe version, run:
 ## Script Details
 
 The script executes the following commands:
+
+- Uninstall the current product key:
+
 ```
 slmgr.vbs /upk
 ```
 
 
-Clear any saved product keys:
+- Clear any saved product keys:
 
-powershell
+```powershell
 
 slmgr.vbs /cpky
+```
 
-Clear KMS server settings:
+- Clear KMS server settings:
 
-powershell
+```powershell
 
 slmgr.vbs /ckms
+```
+- Get available Windows editions:
 
-Get available Windows editions:
-
-powershell
+```powershell
 
 DISM /online /Get-TargetEditions
+```
 
-Configure and start required services:
+- Configure and start required services:
 
-powershell
+```powershell
 
 sc config LicenseManager start= auto & net start LicenseManager
 sc config wuauserv start= auto & net start wuauserv
+```
+- Change the product key:
 
-Change the product key:
-
-powershell
+```powershell
 
 changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
-
-Install the KMS client key:
+```
+- Install the KMS client key:
+```
+slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+```
